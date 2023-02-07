@@ -114,6 +114,6 @@ dmypy.json
 # some template website files
 flaskr/templates/temp_website.html
 flaskr/static/w3.css
-flaskr/templates/images/parallax1.jpg
-flaskr/templates/images/parallax2.jpg
-flaskr/templates/images/parallax3.jpg
+images/parallax1.jpg
+images/parallax2.jpg
+images/parallax3.jpg

@@ -17,3 +17,8 @@
     font-size: 14px;
     color: red;
 }
+
+.bgimage1{
+    background-image: url('/images/parallax1.jpg');
+    min-height: 100%;
+}
