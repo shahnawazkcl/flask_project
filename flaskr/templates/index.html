@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet", type="text/css" href="{{url_for('static', filename='style.css')}}">
 </head>
 <body>
-    <div><h1>It's my Home page</h1>
+    <div class="message">
+        <h1>It's my Home page</h1>
+    </div>
+    <div class="message1">
         <p>Hello {{name}} You are {{age}} yeras OLD {{occupation}} </p> 
     </div>
-    <script type="text/javascript" 
+    <!-- <script type="text/javascript" 
     src="{{ url_for('static', filename='index.js') }}">
-    </script>
+    </script> -->
 </body>
 </html>

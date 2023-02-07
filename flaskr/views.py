@@ -2,7 +2,6 @@ from flask import Blueprint, render_template, request, jsonify, redirect, url_fo
 
 views = Blueprint(__name__, "views")
 
-
 # add home route
 @views.route("/")
 def home():
