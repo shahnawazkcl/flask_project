@@ -14,7 +14,7 @@ def get_db():
 
     return g.db
 
-# check the if the db open then close before request
+# check the if the db open then close before request.
 def close_db(e=None):
     db = g.pop('db', None)
     if db is not None:
