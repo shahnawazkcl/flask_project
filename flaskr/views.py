@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, jsonify, redirect, url_for
 
-views = Blueprint(__name__, "views")
+views = Blueprint(__name__, "views", static_folder='static')
 
 # add home route
 @views.route("/")
@@ -36,6 +36,11 @@ def get_json():
 def get_data():
     data = request.json
     return jsonify(data)
+
+# send data static data file
+@views.route("/api/data")
+def send_data():
+    return views.send_static_file("data.json")
 
 # redirect
 @views.route("/goToHome")
