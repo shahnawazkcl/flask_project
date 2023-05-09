@@ -1,2 +1,2 @@
 #app dependencies using 'pip freeze > requirements.txt'
-Flask==1.0.4
+Flask==2.2.5
